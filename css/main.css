@@ -1832,7 +1832,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #75ffff;
+  background: #7a78ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3135,20 +3135,25 @@ body {
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: 100% 100%;
-  background-color: #006400;
+  background-color: #005737;
+  font-family: "楷体";
 }
 .sidebar-inner,
 .header-inner,
 .content,
-.post-block {
-  background: #006400;
+.post-block,
+.site-brand-wrapper,
+.site-meta,
+#sidebar {
+  background: #005737;
 }
 #menu a {
   color: #fff;
 }
 .menu .menu-item a:hover,
 .menu-item-active a {
-  background: #000;
+  background: #005737;
+  opacity: 0.8;
 }
 .site-author-name,
 .site-description,
@@ -3160,8 +3165,13 @@ body {
 .copyright,
 .powered-by,
 .theme-link,
-.theme-info {
+.theme-info,
+.fa,
+#busuanzi_container_site_uv,
+.post-body,
+.site-title {
   color: #fff;
+  font-family: "楷体";
 }
 .post-button .btn {
   background: #000;
@@ -3175,4 +3185,7 @@ body {
 }
 .post-body img {
   width: 200px;
+}
+.sidebar a {
+  color: #fff;
 }
