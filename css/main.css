@@ -1832,7 +1832,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0ff;
+  background: #45ff7d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3136,6 +3136,8 @@ body {
   background-position: 50% 50%;
   background-size: 100% 100%;
   background-color: #005737;
+  padding: 0;
+  margin: 0;
 }
 .sidebar-inner,
 .header-inner,
@@ -3144,16 +3146,15 @@ body {
 .site-brand-wrapper,
 .site-meta,
 #sidebar,
-.content-wrap {
-  background: #005737;
-}
-#menu a {
-  color: #fff;
-}
+.content-wrap,
 .menu .menu-item a:hover,
 .menu-item-active a {
-  background: #005737;
+  background: rgba(0,87,55,0);
 }
+.menu .menu-item a:hover {
+  border: 1px solid #fff;
+}
+#menu a,
 .site-author-name,
 .site-description,
 .site-state-item-name,
@@ -3168,7 +3169,15 @@ body {
 .fa,
 #busuanzi_container_site_uv,
 .post-body,
-.site-title {
+.site-title,
+.sidebar a,
+.site-subtitle,
+.post-category span,
+.post-title-link span,
+.category-list-link,
+.post-nav-next,
+.post-nav-item a,
+.post-tags a {
   color: #fff;
 }
 .post-button .btn {
@@ -3182,20 +3191,11 @@ body {
   border: 2px solid #555;
 }
 .post-body img {
-  width: 200px;
+  width: 80%;
 }
-.sidebar a,
+.site-brand-wrapper {
+  background: rgba(0,0,0,0.2);
+}
 .site-subtitle {
-  color: #fff;
-}
-.sidebar {
-  opacity: 0.8;
-}
-.post-category span,
-.post-title-link span,
-.category-list-link,
-.post-nav-next,
-.post-nav-item a,
-.post-tags a {
-  color: #fff;
+  color: #ffa500;
 }
