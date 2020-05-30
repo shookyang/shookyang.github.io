@@ -347,6 +347,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2020/03/20/%E6%89%8B%E6%9C%AF/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2020/03/20/%E6%89%8B%E6%9C%AF/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -374,7 +384,7 @@
           
             <div class="post-gallery-row">
               <a class="post-gallery-img fancybox"
-                 href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590606714817&di=61c1d06a03f9fca86aa59546443aff5c&imgtype=0&src=http%3A%2F%2Fnewsimg.5054399.com%2Fuploads%2Fuserup%2F1804%2F131644563U1.jpg" rel="gallery_ckaqvlnol00092comax4ba3vt"
+                 href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590606714817&di=61c1d06a03f9fca86aa59546443aff5c&imgtype=0&src=http%3A%2F%2Fnewsimg.5054399.com%2Fuploads%2Fuserup%2F1804%2F131644563U1.jpg" rel="gallery_ckau9tfsw0009b4omaoep7r9u"
                  itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
                 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590606714817&di=61c1d06a03f9fca86aa59546443aff5c&imgtype=0&src=http%3A%2F%2Fnewsimg.5054399.com%2Fuploads%2Fuserup%2F1804%2F131644563U1.jpg" itemprop="contentUrl"/>
               </a>
@@ -471,6 +481,9 @@
 
           
 
+  
+    <div class="comments" id="comments">
+    </div>
   
 
 
@@ -763,6 +776,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'shookyang',
+        appKey: 'Shook2020',
+        placeholder: '来呀！快活呀！~',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
