@@ -1832,7 +1832,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0fe7ff;
+  background: #78ff1b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3222,6 +3222,12 @@ blockquote {
 }
 .valine-comment-count {
   color: #ff0;
+}
+.v[data-class=v] .vpower {
+  display: none;
+}
+svg.markdown {
+  display: none;
 }
 @media (max-width: 767px) {
   .post-body img {
