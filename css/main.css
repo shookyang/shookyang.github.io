@@ -1832,7 +1832,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff05ed;
+  background: #42ad59;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3231,7 +3231,7 @@ svg.markdown {
 }
 @media (max-width: 767px) {
   .post-body img {
-    width: 100%;
+    width: 75%;
   }
   .posts-expand .post-comments-count,
   .post-meta-item-text {
